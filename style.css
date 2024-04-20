@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center
+  
+}
+#form{
+    
+    border: 1px solid #929292;
+    height: 348px;
+    width: 379px;
+    margin-top: 10px;
+}
+#form img{
+    position: absolute;
+    top: 35px;
+}
+#username{
+    height: 20px;
+    width: 250px;
+    padding: 9px 0 7px 8px;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 3px;
+    margin: 4px;
+    position: absolute;
+    top: 110px;
+}
+#username:active{
+    border: 1px solid rgb(73, 73, 73);
+    box-shadow: 0 0 2px black;
+}
+ #password{
+    height: 20px;
+    width: 250px;
+    padding: 9px 0px 7px 8px;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 3px;
+    margin-top: 15px;
+    position: absolute;
+    top: 140px;
+}
+
+#password:active{
+    border: 1px solid rgb(73, 73, 73);
+    box-shadow: 0 0 2px black;
+    
+}
+#login{
+    text-decoration: none;
+    height: 32px;
+    width: 268px;
+    background-color: #3897f0;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    top: 205px;
+}
+#login:hover{
+
+    background-color: #1f5c96;
+    cursor: pointer;
+}
+#facebook{
+    text-decoration: none;
+    color: #385185;
+    z-index: 2;
+    position: absolute;
+    top: 290px;
+    font-size: 15px;
+    font-weight: 500;
+}
+#F{
+    text-decoration: none;
+    color: #385185;
+    z-index: 2;
+    position: absolute;
+    top: 330px;
+    font-size: 12px;
+}
+#SignUpForm{
+    border: 1px solid #929292;
+    height: 62px;
+    width: 379px;
+    margin-top: 10px;
+}
+#SignUp{
+    font-size: 12px;
+    font-weight: lighter;
+    margin: 15px;
+
+}
+#SignUp span{
+    font-weight: bold;
+    color:#3897f0 ;
+}
+#SignUp span:hover{
+    cursor: pointer;
+}
+#App{
+    height: 95px;
+    width: 350px;
+
+}
+#App img{
+    width: 134.28px;
+    height: 40px;
+
+    
+}
+#Microsoft{
+    position: absolute;
+    top: 517px;
+    left: 700px;
+}
+#PlayStore{
+    position: absolute;
+    top: 518px;
+    left: 546px;
+}
+
+    
